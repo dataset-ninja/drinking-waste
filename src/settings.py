@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Drinking Waste"
 PROJECT_NAME_FULL: str = "Drinking Waste Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -24,7 +24,7 @@ LICENSE: License = License.CC0_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental(is_used=False)]
 CATEGORY: Category = Category.Environmental()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Classification()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
