@@ -1,6 +1,6 @@
 Dataset **Drinking Waste** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/5skm5jx1b62sq0uyrbr0f/drinking-waste-DatasetNinja.tar?rlkey=s5vzv2pv5sn37wq9abj16ag1q&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzM1MzBfRHJpbmtpbmcgV2FzdGUvZHJpbmtpbmctd2FzdGUtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiL0o2QXVhVlFsVUU3R2Mrb2I4VzBYSzN6bHlDbjkrZk1sTU1zakhqTnJUWT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
